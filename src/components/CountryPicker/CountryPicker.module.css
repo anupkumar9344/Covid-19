@@ -1,0 +1,20 @@
+
+option{
+  border: 1px solid black;
+}
+.formControl {
+  display: flex;
+  justify-content: center !important;
+  width: 70%;
+  margin: 10px 0px !important;
+}
+@media screen and (max-width:992px) {
+  .formControl {
+    width: 70%;
+  }
+}
+@media screen and (max-width:762px) {
+  .formControl {
+    width: 90%;
+  }
+}

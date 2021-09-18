@@ -1,0 +1,18 @@
+.navbar{
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background: yellow;
+}
+.navbar img{
+    width: 300px;
+}
+@media screen and (max-width: 762px){
+    .navbar{
+        height: 80px;
+    }
+    .navbar img{
+        width: 200px;
+    }
+}

@@ -1,0 +1,42 @@
+.bg-yellow{
+    background-color: yellow;
+}
+h1, h2, h3{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+.card{
+    background: rgb(242, 255, 120);
+    color: rgb(0, 0, 0);
+}
+.card-title{
+    font-weight: 700;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+@media screen and (max-width:762px) {
+    .carousel-inner img{
+        height: 200px;
+    }
+}
+.carousel {
+    margin-bottom: 100px;
+}
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption h5{
+    color: yellow;
+    font-weight: 700;
+    font-size: 28px;
+}
+.carousel-control-prev, .carousel-control-next{
+    background: transparent;
+    border: none;
+}
